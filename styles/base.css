@@ -49,7 +49,7 @@ div {
     background: lightgray;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     box-sizing: border-box;
     border: solid black 1px;
     display: grid; 
