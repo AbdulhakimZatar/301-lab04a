@@ -21,6 +21,9 @@ function color(x) {
     }
   }
 
-  let x = window.matchMedia("(max-width: 767px)");
+  let x = window.matchMedia("(max-width: 767px)", );
+  let y = window.matchMedia("(max-width: 960px)");
   color(x);
+  color(y);
   x.addListener(color);
+  y.addListener(color);
